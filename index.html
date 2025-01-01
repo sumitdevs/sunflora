@@ -5,10 +5,59 @@
     <link rel="shortcut icon" href="sunflora.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sunflora</title>
-    <script type="module" crossorigin src="/sunflora/assets/index-C8vZC3Pq.js"></script>
-    <link rel="stylesheet" crossorigin href="/sunflora/assets/index-DqQksVyv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/sunflora/assets/index-9ysFBkV6.js"></script>
+    <link rel="stylesheet" crossorigin href="/sunflora/assets/index-B1M1E4Zb.css">
   </head>
   <body>
-    <h1 class="text-red-500">Hello world</h1>
+    <div class="bg-wrapper h-screen">
+      <header>
+        <div class="container">
+          <div class="nav-wrapper py-6 max-w-7xl mx-auto flex items-center justify-between">
+            <a href="/">
+              <img src="/sunflora/images/floralogo.svg" alt="floral logo">
+            </a>
+            <nav class="primay-navigation">
+                <ul class="flex gap-x-10 items-center">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="user-nav">
+              <ul class="flex items-center  gap-x-10 text-white">
+                <li><a href="#"><img src="/sunflora/images/heart.svg" alt=""></a></li>
+                <li><a href="#"><img src="/sunflora/images/cart.svg" alt=""></a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section class="cta mt-40">
+          <div class="container max-w-7xl mx-auto">
+            <div class="cta-content max-w-xl">
+              <h2 class="text-6xl leading-tight"><span class="text-clr_accent_500">Grow Plants</span> for a better Environment</h2>
+              <p class="w-3/4 my-6">
+                In the heart of a vibrant meadow, where the gentle breeze orchestrates a ballet of colors, there stands a solitary flower.
+              </p>
+              <div class="plat-stat w-1/2 flex items-center justify-between">
+                <div>
+                  <p class="font-medium text-3xl">50+</p>
+                  <p>Plant Species</p>
+                </div>
+                <div class="h-12 border-l-2 border-clr_primary_900"></div>
+                <div>
+                  <p class="font-medium text-3xl">100+</p>
+                  <p>Customers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
   </body>
 </html>
