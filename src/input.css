@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+        @apply font-ff_body text-base;
+    }
+  h1,h2,h3,h4,h5,h6{
+    @apply font-ff_heading font-medium;
+  }
+  h1{
+    @apply text-6xl leading-tight;
+  }
+  h2{
+    @apply text-5xl leading-tight;
+  }
+  h3{
+    @apply text-2xl;
+  }
+  p{
+    @apply text-lg;
+  }
+  a{
+    @apply text-xl;
+  }
+  .footer-navigation a{
+    @apply text-lg font-normal;
+  }
+  a:hover,:focus{
+    @apply text-clr_accent_500;
+  }
+  
+}
+
+@layer components{
+    .bg-wrapper{
+        background-image: url('/images/bg-image.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        
+    }
+    .btn{
+      @apply  rounded-lg py-3 bg-clr_accent_500 text-lg flex items-center gap-x-4 text-white
+    }
+    .dot {
+      transition: background-color 0.3s ease;
+    }
+    
+    .dot.active {
+      background-color: #000000; /* Tailwind's blue-500 */
+    }
+}
+
+@layer utilities{
+
+}

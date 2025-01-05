@@ -1,3 +1,6 @@
-import { alertf } from "./scripts/counter";
-import './styles/style.css'
-alertf();
+import { updateDots } from './scripts/slider';
+import './styles/style.css';
+
+updateDots();
+
+  
