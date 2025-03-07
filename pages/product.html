@@ -1,0 +1,27 @@
+
+    <section class="max-w-7xl mx-auto pt-40">
+        <div class="flex justify-between">
+            <h2 class="text-4xl">Best Selling Plants</h2>
+            <!-- <button class="flex items-center  text-lg font-semibold gap-x-4 bg-opacity-20   bg-clr_accent_500 px-8 rounded-3xl"><i class="fa-solid text-sm fa-filter"></i>  filter</button> -->
+        </div>
+        <div class="grid grid-cols-4 gap-y-16  gap-x-8 mt-20">
+            <div ng-repeat="plant in plants" class="flex flex-col relative w-[300px]  rounded-t-[20px]">
+                <div class="rounded-t-[20px] border  relative w-[300px] h-[320px] overflow-hidden">
+                    <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-110" 
+                         ng-src="{{plant.url}}" alt="{{plant.name}}">
+                    
+                    <button ng-click="handleLike(plant.id)" id="{{plant.id}}" class="absolute top-6 right-6 text-2xl text-gray-500 transition">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                
+                <div class="bg-clr_accent_500 w-full z-10 p-4 -mt-12 text-white rounded-t-[20px] ">
+                    <p class="font-light">{{plant.name}}</p>
+                    <div class="flex items-center justify-between ">
+                        <p>₹{{plant.price}}</p>
+                        <button  ng-click="handleLikeCount(plant)" class="w-10 h-10 text-3xl font-light flex items-center justify-center text-black rounded-full bg-white">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
