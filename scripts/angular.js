@@ -125,49 +125,49 @@ app.controller("ProductController", ["$scope","CountService", function ($scope, 
           name: "Aloe Vera",
           price: 299,
           desc: "A medicinal succulent known for its healing properties and low maintenance.",
-          url: "/upload/img1.webp"
+          url: "/sunflora/upload/img1.webp"
         },
         {
           id: 2,
           name: "Snake Plant",
           price: 499,
           desc: "An air-purifying indoor plant that thrives in low light and requires minimal care.",
-          url: "/upload/img2.jpeg"
+          url: "/sunflora/upload/img2.jpeg"
         },
         {
           id: 3,
           name: "Peace Lily",
           price: 399,
           desc: "A beautiful flowering plant that purifies air and adds elegance to any space.",
-          url: "/upload/img3.jpeg"
+          url: "/sunflora/upload/img3.jpeg"
         },
         {
           id: 4,
           name: "Spider Plant",
           price: 349,
           desc: "An easy-to-grow plant that improves air quality and is pet-friendly.",
-          url: "/upload/img4.webp"
+          url: "/sunflora/upload/img4.webp"
         },
         {
           id: 5,
           name: "Money Plant",
           price: 299,
           desc: "A lucky plant believed to bring prosperity and good fortune.",
-          url: "/upload/img5.jpg"
+          url: "/sunflora/upload/img5.jpg"
         },
         {
           id: 6,
           name: "Bamboo",
           price: 599,
           desc: "A low-maintenance plant symbolizing luck and positive energy.",
-          url: "/upload/img6.webp"
+          url: "/sunflora/upload/img6.webp"
         },
         {
           id: 7,
           name: "Jade Plant",
           price: 449,
           desc: "A succulent that requires little water and is said to bring wealth and success.",
-          url: "/upload/img7.webp"
+          url: "/sunflora/upload/img7.webp"
         },
         
         {
@@ -175,7 +175,7 @@ app.controller("ProductController", ["$scope","CountService", function ($scope, 
           name: "Tulsi (Holy Basil)",
           price: 199,
           desc: "A sacred plant in Indian culture, known for its medicinal and spiritual benefits.",
-          url: "/upload/img9.jpg"
+          url: "/sunflora/upload/img9.jpg"
         }
       ];
 
