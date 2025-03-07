@@ -52,11 +52,11 @@
         <div id="likebtn" class="absolute  hidden top-16 right-52  rounded-sm  ">
           <button ng-repeat="plant in likeCount" class="flex w-48 transition-all ease-in-out duration-500 hover:bg-green-200 rounded-sm bg-white border gap-x-6 px-4 ">
             <div class="w-14 aspect-square">
-              <img class="w-full h-full object-cover" src="/sunflora/images/img1.png" alt="">
+              <img class="w-full h-full object-cover" ng-src={{plant.url}} alt="">
             </div>
             <div class=" text-clr_accent_500">
               <p class="text-sm">{{plant.name}}</p>
-              <p>$234</p>
+              <p>₹{{plnat.price}}</p>
             </div>
           </button>
         </div>
