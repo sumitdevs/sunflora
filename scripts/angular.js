@@ -3,19 +3,19 @@ var app = angular.module("myApp", ["ngRoute"]);
 app.config(["$routeProvider", function ($routeProvider) {
     $routeProvider
         .when("/", {
-            templateUrl: "/pages/home.html",
+            templateUrl: "/sunflora/pages/home.html",
             controller: "HomeController"
         })
         .when("/product", {
-            templateUrl: "/pages/product.html",
+            templateUrl: "/sunflora/pages/product.html",
             controller: "ProductController"
         })
         .when("/login", {
-            templateUrl: "/pages/login.html",
+            templateUrl: "/sunflora/pages/login.html",
             controller: "LoginController"
         })
         .when("/register", {
-            templateUrl: "/pages/registration.html",
+            templateUrl: "/sunflora/pages/registration.html",
             controller: "RegistrationController"
         })
         .otherwise({
